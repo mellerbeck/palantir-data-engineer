@@ -22,17 +22,27 @@ https://www.youtube.com/watch?v=XEZ-bTtW8Z4
 
 Go to settings, branches to configure which groups of people can approve the PR
 
-Pull request tips
-  Branch should be up to date with master
-  Give PR a descriptive title
-  Read over PR to make sure it makes sense
-  PR description checklist
-    what did you change in this PR
-    Link to build of the changed + downstream dataset(s)
-    For critial dataset: 'Compare to master' link
-    Optional: Contour analysis to deep dive into dataset content
-    Potential follows ups necessary after merging your PR
-  After merging, wait for checks on master, potentially run build
-  Ontology datasets must finish syncing before seeing changes
+# Pull Request Tips
 
-    
+- **Branch Management**
+  - Ensure your branch is up to date with `master`.
+
+- **Pull Request Title**
+  - Provide a descriptive title for the PR.
+
+- **Review**
+  - Read through the PR to ensure it is clear and logical.
+
+- **PR Description Checklist**
+  - **Changes**: Clearly state what was changed in this PR.
+  - **Build Links**: Include links to the build of the changes and any downstream dataset(s).
+  - **Critical Datasets**: Provide a "Compare to master" link for critical datasets.
+  - **Optional Analysis**: Include contour analysis for a deep dive into dataset content, if applicable.
+  - **Follow-ups**: Note any potential follow-up tasks required after merging the PR.
+
+- **Post-Merge Actions**
+  - After merging, wait for checks to complete on `master`.
+  - Consider running a build if necessary.
+
+- **Ontology Datasets**
+  - Ensure ontology datasets finish syncing before changes are visible.
