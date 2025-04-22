@@ -19,3 +19,20 @@ A dataset is the most essential representation of data from when it lands in Fou
 What are code repositories (Best Practices for code repositories)
 
 https://www.youtube.com/watch?v=XEZ-bTtW8Z4
+
+Go to settings, branches to configure which groups of people can approve the PR
+
+Pull request tips
+  Branch should be up to date with master
+  Give PR a descriptive title
+  Read over PR to make sure it makes sense
+  PR description checklist
+    what did you change in this PR
+    Link to build of the changed + downstream dataset(s)
+    For critial dataset: 'Compare to master' link
+    Optional: Contour analysis to deep dive into dataset content
+    Potential follows ups necessary after merging your PR
+  After merging, wait for checks on master, potentially run build
+  Ontology datasets must finish syncing before seeing changes
+
+    
