@@ -16,3 +16,6 @@ What is a dataset
 A dataset is the most essential representation of data from when it lands in Foundry through when it is mapped into the Ontology. 
 <img src="https://github.com/user-attachments/assets/92023662-4e9e-4d14-a721-311d76d049c4" width="250"/>
 
+What are code repositories (Best Practices for code repositories)
+
+https://www.youtube.com/watch?v=XEZ-bTtW8Z4
